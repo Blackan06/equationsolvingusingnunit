@@ -3,7 +3,28 @@
 
 public class LinearEquation
 {
-
+    public static double[] LinearEquationSolve(double a, double b)
+    {
+        if (a == 0)
+        {
+            if (b != 0)
+            {
+                throw new ArgumentOutOfRangeException("The 1st coefficient must not be 0");
+            }
+            return new double[] { b };
+        }
+        else
+        {
+            if (b == 0)
+            {
+                return new double[] { 0 };
+            }
+            else
+            {
+                return new double[] { -b / a };
+            }
+        }
+    }
 }
 public class QuadraticEquation { 
     public static double[] Solve(double A, double B, double C)
