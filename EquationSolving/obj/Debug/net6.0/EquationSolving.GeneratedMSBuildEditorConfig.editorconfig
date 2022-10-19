@@ -7,8 +7,4 @@ build_property.InvariantGlobalization =
 build_property.PlatformNeutralAssembly = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = EquationSolving
-<<<<<<< Updated upstream
-build_property.ProjectDir = D:\SWD2\equationsolvingusingnunit\EquationSolving\
-=======
 build_property.ProjectDir = D:\FPTU\SEM5_FALL2022\SWT301_Software_Testing\EquationSolvingUsingNUnit(Group)\equationsolvingusingnunit\EquationSolving\
->>>>>>> Stashed changes

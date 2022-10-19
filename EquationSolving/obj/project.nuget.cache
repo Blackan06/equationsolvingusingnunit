@@ -1,14 +1,8 @@
 {
   "version": 2,
-<<<<<<< Updated upstream
-  "dgSpecHash": "9xAO6EOYaAukZfAsiDxWmq343Sq9vzFoSJ55GtaMwNkKgo/Hm77Vznt4jCPvoYVXPyQ0MKDogOJe0WEszl/zIA==",
-  "success": true,
-  "projectFilePath": "D:\\SWD2\\equationsolvingusingnunit\\EquationSolving\\EquationSolving.csproj",
-=======
   "dgSpecHash": "AzUqZGxwFPvBYzQA4tRGX7lU1Jd4sZ4zHCjePMeCxsXb0gPIBiiXd30abDu8SehOzjiM1TTMRD4lnAVExZb5rw==",
   "success": true,
   "projectFilePath": "D:\\FPTU\\SEM5_FALL2022\\SWT301_Software_Testing\\EquationSolvingUsingNUnit(Group)\\equationsolvingusingnunit\\EquationSolving\\EquationSolving.csproj",
->>>>>>> Stashed changes
   "expectedPackageFiles": [],
   "logs": []
 }

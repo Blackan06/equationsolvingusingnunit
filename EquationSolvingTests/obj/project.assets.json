@@ -3984,39 +3984,23 @@
     ]
   },
   "packageFolders": {
-<<<<<<< Updated upstream
-    "C:\\Users\\huynh\\.nuget\\packages\\": {},
-=======
     "C:\\Users\\tlmin\\.nuget\\packages\\": {},
->>>>>>> Stashed changes
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-<<<<<<< Updated upstream
-      "projectUniqueName": "D:\\SWD2\\equationsolvingusingnunit\\EquationSolvingTests\\EquationSolvingTests.csproj",
-      "projectName": "EquationSolvingTests",
-      "projectPath": "D:\\SWD2\\equationsolvingusingnunit\\EquationSolvingTests\\EquationSolvingTests.csproj",
-      "packagesPath": "C:\\Users\\huynh\\.nuget\\packages\\",
-      "outputPath": "D:\\SWD2\\equationsolvingusingnunit\\EquationSolvingTests\\obj\\",
-=======
       "projectUniqueName": "D:\\FPTU\\SEM5_FALL2022\\SWT301_Software_Testing\\EquationSolvingUsingNUnit(Group)\\equationsolvingusingnunit\\EquationSolvingTests\\EquationSolvingTests.csproj",
       "projectName": "EquationSolvingTests",
       "projectPath": "D:\\FPTU\\SEM5_FALL2022\\SWT301_Software_Testing\\EquationSolvingUsingNUnit(Group)\\equationsolvingusingnunit\\EquationSolvingTests\\EquationSolvingTests.csproj",
       "packagesPath": "C:\\Users\\tlmin\\.nuget\\packages\\",
       "outputPath": "D:\\FPTU\\SEM5_FALL2022\\SWT301_Software_Testing\\EquationSolvingUsingNUnit(Group)\\equationsolvingusingnunit\\EquationSolvingTests\\obj\\",
->>>>>>> Stashed changes
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-<<<<<<< Updated upstream
-        "C:\\Users\\huynh\\AppData\\Roaming\\NuGet\\NuGet.Config",
-=======
         "C:\\Users\\tlmin\\AppData\\Roaming\\NuGet\\NuGet.Config",
->>>>>>> Stashed changes
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -4031,13 +4015,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-<<<<<<< Updated upstream
-            "D:\\SWD2\\equationsolvingusingnunit\\EquationSolving\\EquationSolving.csproj": {
-              "projectPath": "D:\\SWD2\\equationsolvingusingnunit\\EquationSolving\\EquationSolving.csproj"
-=======
             "D:\\FPTU\\SEM5_FALL2022\\SWT301_Software_Testing\\EquationSolvingUsingNUnit(Group)\\equationsolvingusingnunit\\EquationSolving\\EquationSolving.csproj": {
               "projectPath": "D:\\FPTU\\SEM5_FALL2022\\SWT301_Software_Testing\\EquationSolvingUsingNUnit(Group)\\equationsolvingusingnunit\\EquationSolving\\EquationSolving.csproj"
->>>>>>> Stashed changes
             }
           }
         }
