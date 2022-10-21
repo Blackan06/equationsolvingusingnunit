@@ -129,20 +129,9 @@ namespace EquationSolvingTests
 
             }
             [Test]
-            [TestCase(1, -3, new double[] { 3 })]
-            [TestCase(1, 5, new double[] { -5 })]
-            public void LinearEquationSolveGivenWrongArguments(double a, double b, double[] expected)
+            public void LinearEquationSolveGivenArguments()
             {
-                Assert.That(LinearEquation.LinearEquationSolve(a, b), Is.EqualTo(expected));
-            }
-
-            [Test]
-            [TestCase(0, 5)]
-            [TestCase(1, 5)]
-            [TestCase(0, 0)]
-            public void LinearEquationSolveGivenWrongArgumentsThrowsException(double a, double b)
-            {
-                Assert.Throws<ArgumentOutOfRangeException>(() => { LinearEquation.LinearEquationSolve(a, b); });
+                Assert.AreEqual(new double[] {-2}, Program1.LinearEquationSolve(-2,3));
             }
         }
 
