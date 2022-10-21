@@ -147,9 +147,9 @@ namespace EquationSolvingTests
             }
         }
 
-
+        /*
         public class CubicEquationTests        
-    {
+        {
             [SetUp]
             public void Setup()
             {
@@ -169,6 +169,7 @@ namespace EquationSolvingTests
             )] double[] expected) => Assert.That(expected, Is.EquivalentTo(PTB3.SolvePT3(x, y, z, t)));
 
         }
+        */
     
 }
 
