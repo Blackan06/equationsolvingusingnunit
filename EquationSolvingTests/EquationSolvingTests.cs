@@ -131,19 +131,19 @@ namespace EquationSolvingTests
             [Test]
             public void LinearEquationSolveGivenArguments()
             {
-                Assert.AreEqual(new double[] {-2}, Program1.LinearEquationSolve(-2,3));
+                Assert.AreEqual(new double[] {-2}, LinearEquation.LinearEquationSolve(-2,3));
             }
             
             [Test]
             public void LinearEquationSolveGivenWrongArguments()
             {
-                Assert.AreNotEqual(new double[] { 2 }, Program1.LinearEquationSolve(2, 3));
+                Assert.AreNotEqual(new double[] { 2 }, LinearEquation.LinearEquationSolve(2, 3));
             }
 
             [Test]
             public void LinearEquationSolveGivenWrongArgumentsInNpercents()
             {
-            Assert.That(new double[] {2.23}, Is.EqualTo( Program1.LinearEquationSolve(2.123, 3.92813 )).Within(1.5));
+            Assert.That(new double[] {2.23}, Is.EqualTo( LinearEquation.LinearEquationSolve(2.123, 3.92813 )).Within(1.5));
             }
         }
 
