@@ -7,7 +7,7 @@
 * Unit Testing for Solving Equations
 * ...
 
-### NUnit Installation Guide (Visual Studio)
+### NUnit Installation Guide (Visual Studio - NuGet Package Manager)
 
 Step 1: In Visual Studio, from Tools menu -> NuGet Package Manager -> Manage NuGet packages for solution...
 
@@ -21,6 +21,37 @@ Step 3: Tick the projects that you want to install NUnit and click Install
 
 ![Install NUnit Step 3](https://github.com/Blackan06/equationsolvingusingnunit/blob/main/Screenshots/NUnit%20Installation%20Guide/Step%203.png)
 
+### NUnit Installation Guide (Visual Studio - Package Manager Console)
+
+Step 1: In Visual Studio, from Tools menu -> NuGet Package Manager -> Package Manager Console
+
+![Install NUnit Step 1]()
+
+Step 2: In the Package Manager Console -> Type "Install-Package NUnit"
+
+![Install NUnit Step 2]()
+
+Step 3: After installing NUnit -> Type "Install-Package NUnit3TestAdapter"
+
+![Install NUnit Step 3]()
+
+Step 4: Check if the 2 packages have been installed -> Type "Get-Package"
+
+![Install NUnit Step 2]()
+
+### NUnit Installation Guide (Project Console)
+
+Step 1: Open cmd and direct to the project
+
+![Install NUnit Step 1]()
+
+Step 2: Type "dotnet add package NUnit"
+
+![Install NUnit Step 2]()
+
+Step 3: After installing NUnit -> Type "dotnet add package NUnit3TestAdapter"
+
+![Install NUnit Step 3]()
 
 ### NUnit Test Project Creation
 
